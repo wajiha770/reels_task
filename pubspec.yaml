@@ -9,6 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http:
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.3
+  video_player: ^2.9.2
+  tiktoklikescroller: ^0.2.8
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +22,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/
